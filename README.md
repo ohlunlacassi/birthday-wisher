@@ -20,7 +20,9 @@ This repository contains two Python scripts that automate email sending for diff
 ## Configurations
 Modify the following variables in the script.
 
-`my_email = "your_email@gmail.com"
-password = "your_app_password"  # Use an App Password instead of your real password
-to_email = "recipient_email@example.com"`
+`my_email = "your_email@gmail.com"`
+
+`password = "your_app_password"`  # Use an App Password instead of your real password
+
+`to_email = "recipient_email@example.com"`
             
