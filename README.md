@@ -10,7 +10,8 @@ This repository contains two Python scripts that automate email sending for diff
       3. Selects a random quote and sends it via email
    
 2. **Birthday Greeting Email**: This script sends an automated birthday email with a randomly choosen letter template.
-   **How It Works**:
+   
+    **How It Works**:
    1. Reads the current date (month and day).
    2. Loads birthday data from `birthdays.csv`
    3. If today matches a birthday, selects a random letter template.
