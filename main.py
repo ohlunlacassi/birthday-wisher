@@ -1,4 +1,3 @@
-##################### Normal Starting Project ######################
 import datetime as dt
 import pandas as pd
 import random
@@ -12,8 +11,8 @@ today_day = now.day
 today = (today_month, today_day)
 
 # Define the sender's email and password
-my_email = "prungsakullikit@gmail.com"
-password = "abc1234()" # placeholder
+my_email = "your_email@gmail.com" # placeholder
+password = "your_email_password" # placeholder
 
 # Read CSV and create a dictionary from it
 # HINT 2: Use pandas to read the birthdays.csv

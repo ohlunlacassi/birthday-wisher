@@ -7,8 +7,8 @@ now = dt.datetime.now()
 day_of_week = now.weekday()
 
 # Define the sender's email and password
-my_email = "prungsakullikit@gmail.com"
-password = "abc1234()" # placeholder
+my_email = "your_email@gmail.com" # placeholder
+password = "your_email_password" # placeholder
 
 # Read quotes from file
 try:
@@ -31,7 +31,7 @@ if day_of_week == 1:
         # Send an email
         connection.sendmail(
             from_addr=my_email, # Sender's email address
-            to_addrs="prungsakullikit@yahoo.com", # Receiver's email address
+            to_addrs="recipient_email@yahoo.com", # Receiver's email address
             msg=f"Subject:Tuesday Motivation\n\n{random_quote}"  # Email subject and body (double newline separates them)
         )
 
